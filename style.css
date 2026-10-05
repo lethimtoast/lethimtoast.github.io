@@ -444,6 +444,7 @@ button {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
+  min-height: 280px;
   background-color: #0d1117;
   overflow: hidden;
   border-bottom: 1px solid var(--color-border-light);
@@ -457,6 +458,29 @@ button {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.video-direct-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-decoration: none;
+  padding: 0.45rem 0.85rem;
+  background: #f3f4f6;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--color-border-light);
+  width: fit-content;
+  transition: all var(--transition-fast);
+}
+
+.video-direct-link:hover {
+  background: #111827;
+  color: #ffffff;
+  border-color: #111827;
 }
 
 .project-reel-container {

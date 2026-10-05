@@ -291,7 +291,7 @@ button {
 .why-me-section {
   position: relative;
   background-color: #191f2b;
-  background-image: linear-gradient(rgba(18, 24, 34, 0.88), rgba(14, 19, 28, 0.93)), url('images/sunset-beach.jpg');
+  background-image: linear-gradient(rgba(14, 19, 28, 0.45), rgba(10, 15, 24, 0.58)), url('images/sunset-beach.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -314,6 +314,7 @@ button {
   font-weight: 700;
   margin-block-end: 4rem;
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7);
 }
 
 .why-me-grid {
@@ -327,7 +328,19 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 1.25rem 0.75rem;
+  padding: 1.5rem 1rem;
+  background: rgba(14, 19, 28, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform var(--transition-smooth), border-color var(--transition-smooth);
+}
+
+.why-me-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .why-me-icon-box {
@@ -338,6 +351,7 @@ button {
   align-items: center;
   justify-content: center;
   color: #ffffff;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
 }
 
 .why-icon {
@@ -355,13 +369,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .why-me-card-text {
   font-size: 0.915rem;
-  color: #e2e8f0;
+  color: #f1f5f9;
   line-height: 1.6;
   margin-block-end: 1.15rem;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
 }
 
 .why-me-card-text:last-child {

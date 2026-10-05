@@ -13,7 +13,7 @@ A modern, responsive, and aesthetic personal profile webpage built using clean s
 - **Education & Experience Timeline:** Interactive segmented switcher for Professional Experience, Academic Education (B.Tech in Computer Science & Engineering), and Industry Certifications.
 - **Skills & Tech Toolbox:** Filterable category chips (Frontend, Backend & DB, Cloud & DevOps, AI & Tooling) with proficiency badges.
 - **Featured Projects Showcase:** Curated real-world projects with tech tags, description, GitHub links, and live preview actions.
-- **Interests & Hobbies:** Passion cards covering Astronomy, Generative AI, Mechanical Keyboards, Specialty Coffee, and Creative Tech.
+- **Interests & Hobbies:** Personal passions covering 90s Rock, Badminton, Photography & Videography, and Travel.
 - **Interactive Contact Section:** One-click email & Discord copying with feedback, live IST timezone clock, social media links, and a validated interactive contact form with instant toast alerts.
 - **Theme Toggling:** Seamless Dark Mode & Light Mode support with smooth CSS transitions, automatic OS preference detection, and `localStorage` state persistence.
 - **Responsive & Accessible Design:** Semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`), ARIA attributes, keyboard navigation support, and fluid typography.

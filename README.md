@@ -8,15 +8,14 @@ A modern, responsive, and aesthetic personal profile webpage built using clean s
 
 ## ✨ Features & Highlights
 
-- **Profile Photograph & Hero:** High-resolution portrait photograph with an interactive 3D perspective tilt effect, floating badges, and live availability status indicator.
-- **About Me:** Personal journey, engineering philosophy, core pillars, and quick facts.
-- **Education & Experience Timeline:** Interactive segmented switcher for Professional Experience, Academic Education (B.Tech in Computer Science & Engineering), and Industry Certifications.
-- **Skills & Tech Toolbox:** Filterable category chips (Frontend, Backend & DB, Cloud & DevOps, AI & Tooling) with proficiency badges.
-- **Featured Projects Showcase:** Curated real-world projects with tech tags, description, GitHub links, and live preview actions.
-- **Interests & Hobbies:** Personal passions covering 90s Rock, Badminton, Photography & Videography, and Travel.
-- **Interactive Contact Section:** One-click email & Discord copying with feedback, live IST timezone clock, social media links, and a validated interactive contact form with instant toast alerts.
-- **Theme Toggling:** Seamless Dark Mode & Light Mode support with smooth CSS transitions, automatic OS preference detection, and `localStorage` state persistence.
-- **Responsive & Accessible Design:** Semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`), ARIA attributes, keyboard navigation support, and fluid typography.
+- **Profile Photograph & Hero:** Portrait photograph (`images/download.jpg`) with video editor badges and direct *About Me* CTA.
+- **Why Me? (4-Column Feature Showcase):** Cinematic backdrop section highlighting *Ideation & Storytelling*, *Editing Skills (DaVinci Resolve & Premiere Pro)*, *Experience (Revels Cultural Fest, MTTN & Lethimtoast)*, and *Willing to Learn*.
+- **Best Work & Video Embeds:** 4 interactive embedded video players showcasing *Storytelling & Direction*, *Cinematic Visual Story & Edit*, *Revels Event Campaign & Coverage*, and *Revels Proshow Reel* with direct Google Drive links.
+- **About Me & Narrative Story:** Hands-on video production journey, camera operation, 3+ years experience, and 200K+ total views across social channels.
+- **Skills & Creative Toolbox:** Comprehensive technical skills covering DaVinci Resolve (Node Color Grading), Adobe Premiere Pro, Sound Design, Scripting, and Storyboarding.
+- **Interests & Hobbies:** Personal passions including 90s Rock, Badminton, Photography & Videography, and Travel.
+- **Contact Section & Social Links:** Direct email ([lethimtoast@gmail.com](mailto:lethimtoast@gmail.com)), LinkedIn ([Saatvik Gupta](https://www.linkedin.com/in/saatvik-gupta-2880991b6/)), Instagram ([@lethimtoast](https://instagram.com/lethimtoast)), GitHub, and an interactive contact form.
+- **Responsive & Accessible Design:** Semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`), custom SVG icons, mobile drawer menu, and fluid layout.
 
 ---
 

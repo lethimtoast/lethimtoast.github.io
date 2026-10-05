@@ -274,9 +274,15 @@ button {
 
 .hero-btn-group {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1.25rem;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .hero-btn-group {
+    justify-content: center;
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -501,10 +507,6 @@ button {
   grid-template-columns: 1.3fr 1fr;
   gap: 3.5rem;
   align-items: start;
-}
-
-.about-text-content .main-section-title {
-  text-align: left;
 }
 
 .about-paragraph {
